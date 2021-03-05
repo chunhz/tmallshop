@@ -9,33 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<style>
-  body {
-    font-size: 12px;
-    font-family: Arial;
-  }
-  a {
-    color: #999;
-  }
-  .redColor {
-    color: #c40000 !important;
-  }
-  nav.top {
-    background-color: #f2f2f2;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #e7e7e7;
-  }
-  nav.top span,
-  nav.top a {
-    color: #999;
-    margin: 0px 10px 0px 10px;
-  }
-  nav.top a:hover {
-    color: #c40000;
-    text-decoration: none;
-  }
-</style>
+<link rel="stylesheet" href="./stylesheet.css" />
 <html lang="en">
   <nav class="top">
     <a href="#nowhere">
@@ -59,6 +33,26 @@
     </span>
   </nav>
   <body>
-    <img src="./accessory/image/simpleLogo.png" class="logoimage" />
+    <div>
+      <a href="#nowhere">
+        <img class="logo" src="./accessory/image/logo.gif" id="logo" />
+      </a>
+
+      <div class="searchDiv">
+        <input
+          type="text"
+          placeholder="iPhone 12 Pro Max   Coat  Umbrella"
+          name="keyword"
+        />
+        <button class="searchButton" type="submit">Search</button>
+        <div class="searchBelow">
+          <span> <a href="#nowhere"> iPhone </a> <span>|</span> </span>
+          <span> <a href="#nowhere"> iRobot </a> <span>|</span> </span>
+          <span> <a href="#nowhere"> Fashion </a> <span>|</span> </span>
+          <span> <a href="#nowhere"> Refrigerator </a></span>
+        </div>
+      </div>
+    </div>
+    <div style="height: 50px"></div>
   </body>
 </html>
